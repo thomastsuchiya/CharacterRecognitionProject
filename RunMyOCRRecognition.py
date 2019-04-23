@@ -10,6 +10,9 @@ import pickle
 
 def training_phase():
 
+    # the letter array is for the names of bmp files with their respective letters being trained
+    # although much of this is hard-coded into the program, it can be trained to read any character!
+    
     letters = ['a', 'd', 'm', 'n', 'o', 'p', 'q', 'r', 'u', 'w']
 
     Features = []
